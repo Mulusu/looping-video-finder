@@ -8,8 +8,8 @@ from glob import glob
 
 # Search parameters ( Change as needed )
 save_folder = "loops/"
-min_length = 1          # Min length of gif, in seconds
-max_length = 10         # Max length of gif, in seconds
+min_length = 1          # Min length of clip, in seconds
+max_length = 10         # Max length of clip, in seconds
 threshold = 0           # The max allowed differense in hashes (default : 0)
 mid_threshold = 6       # Threshold of difference required in the middle of the clip
 hash_size = 8
